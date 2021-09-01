@@ -1,9 +1,9 @@
-# magnet-info
+# magnetInfo
 ## Parse a magnet link into a struct
 
 # Installation 
 ```
-go get github.com/Unbewohnte/magnet-info
+go get github.com/Unbewohnte/magnetInfo
 ```
 
 # Usage
@@ -23,3 +23,11 @@ func main() {
     // ...
 }
 ```
+
+Output is
+
+```
+&{DisplayNames:[] ExactLength:0 ExactTopics:[urn:btih:83918ea4bb488cefd3d8b8b8762597d32aebb4fa] WebSeeds:[] AcceptableSources:[] ExactSources:[] KeywordTopics:[] ManifestTopics:[] AddressTrackers:[http://academictorrents.com/announce.php udp://tracker.coppersurfer.tk:6969 udp://tracker.opentrackr.org:1337/announce udp://tracker.leechers-paradise.org:6969]}
+```
+
+
